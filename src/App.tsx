@@ -262,7 +262,6 @@ Glenwood.`}
           <boxGeometry />
           <meshStandardMaterial color="#2f2f30" />
         </mesh>
-        s
         <mesh
           position={[11, 0.5, 11]}
           geometry={new THREE.DodecahedronGeometry(0.5)}
