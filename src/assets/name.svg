@@ -1,0 +1,42 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+  <circle r="300" cx="300" cy="300" fill="#d24c42" />
+  <text 
+    x="300" 
+    y="300" 
+    fill="#c2645d"
+    stroke="#c2645d"
+    stroke-width="5"
+    font-family="Arial"
+    font-size="500"
+    font-weight="900"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+  7
+  </text>
+  <text
+    x="300" 
+    y="250" 
+    fill="black"
+    stroke="black"
+    font-family="Arial"
+    font-size="100"
+    stroke-width="4"
+    font-weight="900" 
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >
+  7s Cereal
+  </text>
+  <text
+    x="300"
+    y="300"
+    fill="black"
+    font-family="Arial"
+    font-size="35"
+    text-anchor="middle"
+  >
+  <tspan x="300" dy="1.2em">A healthy, plant-based cereal.</tspan>
+  <tspan x="300" dy="1.2em">Perfect for anyone's breakfast!</tspan>
+  </text>
+</svg>

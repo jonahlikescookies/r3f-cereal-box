@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style>
+      div#container {
+        width: 300px;
+        border: 2px black solid;
+        padding: 2px;
+
+        * {
+          font-family: "Arial", sans-serif;
+          margin: 0;
+        }
+        table {
+          width: 100%;
+        }
+        table,
+        table tr > * {
+          font-size: 0.8rem;
+          border: 1px black solid;
+          border-collapse: collapse;
+        }
+        tr > th,
+        tr > td {
+          width: 25%;
+        }
+        tr > th:first-child,
+        tr > td:first-child {
+          text-align: left;
+          width: 50%;
+        }
+        .row {
+          display: flex;
+          flex-direction: row;
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+        }
+        .space-between {
+          justify-content: space-between;
+        }
+        .to-end {
+          justify-content: flex-end;
+        }
+        .small-font {
+          font-size: 0.7rem;
+        }
+        hr.extra-thick {
+          border-top-width: 1rem;
+          border-color: black;
+        }
+      }
+    </style>
+    <div id="container">
+      <h2>Nutrition Facts</h2>
+      <hr />
+      <p>About 7 servings per container</p>
+      <div class="space-between row">
+        <h4>Serving size</h4>
+        <h4>1 &frac13; Cup (39g)</h4>
+      </div>
+      <hr class="extra-thick" />
+      <table>
+        <tr>
+          <th>
+            <div class="to-end column">
+              <h6>Amount per serving</h6>
+              <h2>Calories</h2>
+            </div>
+          </th>
+          <th>
+            <div class="space-between column">
+              <h6>Cereal</h6>
+              <h2>257</h2>
+            </div>
+          </th>
+          <th>
+            <div class="space-between column">
+              <h6>with &frac34; cup skim milk</h6>
+              <h2>317</h2>
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>%DV*</th>
+          <th>%DV*</th>
+        </tr>
+        <tr>
+          <th>Total Fat</th>
+          <td>
+            <div class="space-between row">
+              <p>5g</p>
+              <h4>7%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>5.5g</p>
+              <h4>7%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>&emsp;Saturated Fat</td>
+          <td>
+            <div class="space-between row">
+              <p>0.5g</p>
+              <h4>3%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>1g</p>
+              <h4>5%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>&emsp;Trans Fat</td>
+          <td>0g</td>
+          <td>0g</td>
+        </tr>
+        <tr>
+          <td>&emsp;Polyunsaturated Fat</td>
+          <td>1g</td>
+          <td>1g</td>
+        </tr>
+        <tr>
+          <td>&emsp;Monounsaturated Fat</td>
+          <td>3.5g</td>
+          <td>3.5g</td>
+        </tr>
+        <tr>
+          <th>Cholesterol</th>
+          <td>
+            <div class="space-between row">
+              <p>0mg</p>
+              <h4>0%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>&lt;5mg</p>
+              <h4>1%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>Sodium</th>
+          <td>
+            <div class="space-between row">
+              <p>257mg</p>
+              <h4>11%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>327mg</p>
+              <h4>14%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>Total Carbohydrate</th>
+          <td>
+            <div class="space-between row">
+              <p>44g</p>
+              <h4>16%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>53g</p>
+              <h4>19%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>&emsp;Dietary Fiber</td>
+          <td>
+            <div class="space-between row">
+              <p>6g</p>
+              <h4>20%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>6g</p>
+              <h4>20%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>&emsp;Total Sugars</td>
+          <td>6g</td>
+          <td>16g</td>
+        </tr>
+        <tr>
+          <td>&emsp;&emsp;Incl. added Sugars</td>
+          <td>
+            <div class="space-between row">
+              <p>0g</p>
+              <h4>0%</h4>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>0g</p>
+              <h4>0%</h4>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>Proteins</th>
+          <td>5g</td>
+          <td>11g</td>
+        </tr>
+      </table>
+      <hr class="extra-thick" />
+      <table>
+        <tr>
+          <td>Vitamin D</td>
+          <td>
+            <div class="space-between row">
+              <p>2mcg</p>
+              <p>10%</p>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>4.2mcg</p>
+              <p>20%</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Calcium</td>
+          <td>
+            <div class="space-between row">
+              <p>0mg</p>
+              <p>0%</p>
+            </div>
+          </td>
+
+          <td>
+            <div class="space-between row">
+              <p>220mg</p>
+              <p>15%</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Iron</td>
+          <td>
+            <div class="space-between row">
+              <p>4.5mg</p>
+              <p>25%</p>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>4.5mg</p>
+              <p>25%</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Potassium</td>
+          <td>
+            <div class="space-between row">
+              <p>220mg</p>
+              <p>4%</p>
+            </div>
+          </td>
+          <td>
+            <div class="space-between row">
+              <p>500mg</p>
+              <p>9%</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <p class="small-font">
+        * The % Daily Value (DV) tells you how much a nutrient in a serving of
+        food contributes to a daily diet. 2,000 calories a day is used for
+        general nutrition advice.
+      </p>
+      <hr />
+      <h5>Ingredients:</h5>
+      <p class="small-font">
+        Whole grain wheat, date powder, coconut oil, vegetable oil, and sea
+        salt.
+      </p>
+      <h5>CONTAINS WHEAT AND COCONUT INGREDIENTS.</h5>
+    </div>
+  </body>
+</html>

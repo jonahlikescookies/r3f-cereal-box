@@ -1,0 +1,56 @@
+html,
+body,
+#root {
+  background-color: black;
+  height: 100%;
+  color: white;
+}
+div#container {
+  width: 300px;
+  border: 2px black solid;
+  padding: 2px;
+
+  * {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+  }
+  table {
+    width: 100%;
+  }
+  table,
+  table tr > * {
+    font-size: 0.8rem;
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+  tr > th,
+  tr > td {
+    width: 25%;
+  }
+  tr > th:first-child,
+  tr > td:first-child {
+    text-align: left;
+    width: 50%;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .space-between {
+    justify-content: space-between;
+  }
+  .to-end {
+    justify-content: flex-end;
+  }
+  .small-font {
+    font-size: 0.7rem;
+  }
+  hr.extra-thick {
+    border-top-width: 1rem;
+    border-color: black;
+  }
+}

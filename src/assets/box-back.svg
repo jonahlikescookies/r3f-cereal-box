@@ -1,0 +1,195 @@
+<svg width="600" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <!-- Bamboo -->
+  <ellipse rx="50" ry="20" cx="150" cy="800" fill="#688562" />
+  <rect x="100" y="0" width="100" height="800" fill="#688562" /> 
+  <path
+    stroke="#43533f"
+    fill="none"
+    stroke-width="10"
+    d="
+      M 100,60 Q 150,100 200,60
+      M 100,260 Q 150,300 200,260 
+      M 100,400 Q 150,440 200,400
+      M 100,580 Q 150,620 200,580
+      M 100,690 Q 150,730 200,690
+      M 100,750 Q 150,790 200,750
+    "
+  />
+  <!-- Pink New Zealand Flax -->
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 320,380 Q 300,675 350,775 Q 370,625 320,380"
+  />
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 240,500 Q 300,675 345,775 Q 400,625 240,500"
+  />
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 550,550 Q 400,600 345,775 Q 500,580 550,550"
+  />
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 220,600 Q 260,770 345,775 Q 280,665 220,600"
+  />
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 500,450 Q 200,675 360,775 Q 400,625 500,450"
+  />
+  <path
+    stroke="#ec7889"
+    fill="#767669"
+    stroke-width="5"
+    d="M 360,410 Q 260,675 350,780 Q 420,625 360,410"
+  />
+  <!-- Main characters -->
+  <text
+    x="10"
+    y="50"
+    text-anchor="left"
+    dominant-baseline="left"
+    fill="#d24c42"
+    stroke="#d24c42"
+    stroke-width="1"
+    font-family="Arial"
+    font-weight="900"
+    font-size="50"
+  >
+    <!-- funny line break stuff -->
+    <tspan>Meet Willow</tspan>
+    <tspan dy="60" x="10">Chance!</tspan> 
+  </text>
+  <text
+    x="10"
+    y="150"
+    fill="black"
+    text-anchor="left"
+    dominant-baseline="left"
+    font-family="Arial"
+    font-size="20"
+  >
+    <tspan>               Willow is a 12 year-old genius</tspan>
+    <tspan dy="24" x="10">with an obsession with the</tspan>
+    <tspan dy="24" x="10">number 7 and diagnosing</tspan>
+    <tspan dy="24" x="10">medical conditions. She also</tspan>
+    <tspan dy="24" x="10">likes plants and gardening.</tspan>
+  </text>
+  <text
+    x="310"
+    y="36"
+    text-anchor="left"
+    dominant-baseline="left"
+    fill="#d24c42"
+    stroke="#d24c42"
+    stroke-width="1"
+    font-family="Arial"
+    font-weight="900"
+    font-size="30"
+  >
+    <!-- funny line break stuff -->
+    <tspan>                and the friends</tspan>
+    <tspan dy="36" x="310">that she values</tspan> 
+    <tspan dy="36" x="310">most!</tspan>
+  </text>
+  <text
+    x="310"
+    y="150"
+    fill="black"
+    text-anchor="left"
+    dominant-baseline="left"
+    font-family="Arial"
+    font-size="20"
+  >
+    <tspan>                Following the death of her</tspan>
+    <tspan dy="24" x="310">parents, she needed friends</tspan>
+    <tspan dy="24" x="310">that she didn't have.</tspan>
+    <tspan dy="24" x="310">luckily, she found the Nguyens</tspan> 
+    <tspan dy="24" x="310">through Dell Duke, her</tspan>
+    <tspan dy="24" x="310">counselor, who helped her to</tspan>
+    <tspan dy="24" x="310">cope. Her friends being:</tspan>
+    <tspan dy="24" x="310">- Mai Nguyen</tspan>
+    <tspan dy="24" x="310">- Quang-ha Nguyen</tspan>
+    <tspan dy="24" x="310">- Dell Duke</tspan>
+  </text>
+  <!-- Vocab (no way commenting .svg files) --> 
+  <text
+    x="10"
+    y="420"
+    fill="#d24c42"
+    stroke="#d24c42"
+    stroke-width="1"
+    font-weight="900"
+    font-size="50"
+    font-family="Arial"
+    text-anchor="left"
+    dominant-baseline="left"
+  >
+  Vocabulary
+  </text>
+  <text
+    x="12"
+    y="450"
+    fill="black"
+    font-size="20"
+    font-family="Arial"
+    text-anchor="left"
+    dominant-baseline="left"
+  >
+    <tspan>
+    Biology: the study of life, ushered in Dell Duke and Willow's
+    </tspan>
+    <tspan dy="24" x="12">
+    friendship.
+    </tspan>
+    <tspan dy="24" x="12">
+    Family: people that live together or are related, the value of family
+    </tspan>
+    <tspan dy="24" x="12">
+    plays a significant role in the plot of Counting By 7s.
+    </tspan>
+    <tspan dy="24" x="12">
+    Friends: people who respect and trust each other, although Willow
+    </tspan>
+    <tspan dy="24" x="12">
+    struggles to make friends, they impacted her life significantly.
+    </tspan>
+    <tspan dy="24" x="12">
+    Gardening: making and tending to garden(s), brings people
+    </tspan>
+    <tspan dy="24" x="12">
+    together in the story.
+    </tspan>
+    <tspan dy="24" x="12">
+    Growth: changing in a positive way, Quang-ha became less
+    </tspan>
+    <tspan dy="24" x="12">
+    selfish and lazy, and Willow became less socially awkward.
+    </tspan>
+    <tspan dy="24" x="12">
+    Teamwork: a collaborative effort from a group of people towards
+    </tspan>
+    <tspan dy="24" x="12">
+    a common goal, teamwork is noticeable after the death of Willow's
+    </tspan>
+    <tspan dy="24" x="12">
+    parents.
+    </tspan>
+    <tspan dy="24" x="12">
+    Seven: the number that comes after 6, Willow's
+    </tspan>
+    <tspan dy="24" x="12">
+    (former) favorite number.
+    </tspan>
+  </text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="800" height="170" xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="#026a81"
+    stroke="black"
+    stroke-width="2"
+    d="M 0,170
+      h 270
+      l 30,-20
+      l 30,20
+      h 140
+      l 30,-20
+      l 30,20
+      h 270
+      v -180
+      h -800
+      Z
+    "
+  />
+</svg>
